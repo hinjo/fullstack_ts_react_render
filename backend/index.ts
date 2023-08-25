@@ -15,5 +15,5 @@ app.get("/api", (_request, response) => {
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
-  console.log(`Redo på port ` + port);
+  console.log(`Redo på port ${port}`);
 });
