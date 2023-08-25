@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.static(path.join(path.resolve(), "public")));
 
 app.get("/api", (_request, response) => {
-  response.send({ hello: "World" });
+  response.send({ hello: "World!!" });
 });
 
 const port = process.env.PORT || 8080;
